@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li><a href="https://google.com">About</a></li>
+      </ul>
+    </nav>
+    <hr>
+    <form>
+        <div>
+            <label for="name">
+                Name:
+            </label>
+            <input type="text" name="name" value="" id="name">
+        </div>
+        <div>
+            <label for="name">
+                Email:
+            </label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="Age">
+                Age
+            </label>
+            <input id="Age" type="number" name="Age" >
+        </div>
+        <div>
+            <label for="date">birthday</label>
+            <input type="date" id="date" name="date" min="2020-05-10" max="2020-10-10">
+        </div>
+        <div>
+            Favourite Pet
+            <div>
+                <label for="dog">Dog</label>
+                <input type="checkbox" id="dog" name="dog">
+            </div>
+            <div>
+                <label for="cat">Cat</label>
+                <input type="checkbox" id="cat" name="cat">
+            </div>
+            <div>
+                <label for="rat">Rat</label>
+                <input type="checkbox" id="rat" name="rat">
+            </div>
+            <div>
+                <label for="cow">Cow</label>
+                <input type="checkbox" id="cow" name="cow">
+            </div>
+            <div>
+                Gender:
+                <div>
+                  <label for="female">Female</label>
+                  <input type="radio" id="female" name="gender">
+                </div>
+               <div>  
+               </div>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender">
+            </div>
+        </div>
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="comments"></textarea>
+        <div>
+            <label for="skinColor"> Skin color</label>
+            <select name="skinColor" id="skinColor">
+        </div>
+        <button>submit</button>
+    </form>
+  </body>
+</html>
